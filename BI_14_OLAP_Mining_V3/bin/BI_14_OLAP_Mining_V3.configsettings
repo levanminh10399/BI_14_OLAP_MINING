@@ -3,10 +3,19 @@
     <DataSources>
       <DataSource>
         <ID>ETL DDS V2</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-LCVMLLJ\LEMINH;Integrated Security=SSPI;Initial Catalog=ETL_DDS_V2</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-TOL1F2F\MSSQLSERVERBI;Integrated Security=SSPI;Initial Catalog=ETL_DDS_V2</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
-          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">leminh1031999@gmail.com</Account>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">quany</Account>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+      <DataSource>
+        <ID>Data Mining Source</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-TOL1F2F\MSSQLSERVERBI;Integrated Security=SSPI;Initial Catalog=ETL_DDS_V2</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">quany</Account>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
@@ -58,6 +67,11 @@
         <ID>Dim Urban Rural</ID>
       </Dimension>
     </Dimensions>
+    <MiningStructures>
+      <MiningStructure>
+        <ID>Dm Accident Severity</ID>
+      </MiningStructure>
+    </MiningStructures>
     <Cubes>
       <Cube>
         <ID>ETL DDS V3</ID>

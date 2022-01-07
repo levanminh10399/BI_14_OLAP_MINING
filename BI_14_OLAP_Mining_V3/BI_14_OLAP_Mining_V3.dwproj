@@ -85,13 +85,27 @@
       <Name>ETL DDS V3.ds</Name>
       <FullPath>ETL DDS V3.ds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Data Mining Source.ds</Name>
+      <FullPath>Data Mining Source.ds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
       <Name>ETL DDS V3.dsv</Name>
       <FullPath>ETL DDS V3.dsv</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Data Mining Source View.dsv</Name>
+      <FullPath>Data Mining Source View.dsv</FullPath>
+    </ProjectItem>
   </DataSourceViews>
+  <MiningModels>
+    <ProjectItem>
+      <Name>Dm Accident Severity.dmm</Name>
+      <FullPath>Dm Accident Severity.dmm</FullPath>
+    </ProjectItem>
+  </MiningModels>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
@@ -100,13 +114,23 @@
           <ConfigurationSetting>
             <Id>ETL DDS V2</Id>
             <Name>ETL DDS V2</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-LCVMLLJ\LEMINH;Integrated Security=SSPI;Initial Catalog=ETL_DDS_V2</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-TOL1F2F\MSSQLSERVERBI;Integrated Security=SSPI;Initial Catalog=ETL_DDS_V2</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Data Mining Source</Id>
+            <Name>Data Mining Source</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-TOL1F2F\MSSQLSERVERBI;Integrated Security=SSPI;Initial Catalog=ETL_DDS_V2</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>ETL DDS V2</Id>
             <Name>ETL DDS V2</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Data Mining Source</Id>
+            <Name>Data Mining Source</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>

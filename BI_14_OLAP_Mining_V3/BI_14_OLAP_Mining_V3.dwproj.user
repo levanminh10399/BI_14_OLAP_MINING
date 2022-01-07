@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>DESKTOP-LCVMLLJ\LEMINH</TargetServer>
+        <TargetServer>DESKTOP-TOL1F2F\MSSQLSERVERBI</TargetServer>
         <TargetDatabase>BI_14_OLAP_Mining_V3</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
