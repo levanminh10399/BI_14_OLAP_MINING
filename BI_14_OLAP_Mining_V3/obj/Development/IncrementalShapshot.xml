@@ -159,9 +159,16 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.MiningStructure</Type>
-        <TimeStamp>p7k0/Khyp5tf1FCE/Ln7XhXwaSM=07/01/2022 11:16:0707/01/2022 11:05:37</TimeStamp>
+        <TimeStamp>bJMb+ux1DMadWYjJ79o+kxqdWmk=09/01/2022 09:06:5407/01/2022 11:05:37</TimeStamp>
         <ID>
           <String>Dm Accident Severity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>eh5TEIJeT3/yHHp0787q2E/6wyE=08/01/2022 22:35:5308/01/2022 22:35:53</TimeStamp>
+        <ID>
+          <String>Dim Date Time Series</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -176,5 +183,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-01-07T04:43:58.75Z</LastDeployed>
+  <LastDeployed>2022-01-09T02:39:48.536667Z</LastDeployed>
 </DeploymentSnapshot>

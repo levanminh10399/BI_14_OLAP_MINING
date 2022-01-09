@@ -71,6 +71,9 @@
       <MiningStructure>
         <ID>Dm Accident Severity</ID>
       </MiningStructure>
+      <MiningStructure>
+        <ID>Dim Date Time Series</ID>
+      </MiningStructure>
     </MiningStructures>
     <Cubes>
       <Cube>

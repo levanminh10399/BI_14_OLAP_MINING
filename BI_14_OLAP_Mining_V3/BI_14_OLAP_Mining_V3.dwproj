@@ -105,6 +105,10 @@
       <Name>Dm Accident Severity.dmm</Name>
       <FullPath>Dm Accident Severity.dmm</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date Time Series.dmm</Name>
+      <FullPath>Dim Date Time Series.dmm</FullPath>
+    </ProjectItem>
   </MiningModels>
   <Configurations>
     <Configuration>
